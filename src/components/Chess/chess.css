@@ -1,0 +1,23 @@
+.full-chess{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100vh;
+  height:100vh;
+}
+
+.grid-container {
+  display: grid;
+  width: 1000px;
+  height: 1000px;
+  grid-template-columns:repeat(8, 1fr);
+}
+
+.grid-item {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.color{
+  background-color:bisque
+}
